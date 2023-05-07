@@ -1,0 +1,24 @@
+server:
+  port: 8080
+  mode: 'release'
+
+mysql:
+  username: ""
+  password: ""
+  host: ""
+  port: 3307
+  dbname: "3g-samples"
+  maxOpenConns: 100
+  maxIdleConns: 10
+  log: false
+  autoMigrate: false
+
+log:
+  debug: true
+  maxAge: 7
+  fileName: '3g-samples.app.log'
+  dirName: '/data/3g-samples/logs'
+
+url:
+  prefix: '/api/v1'
+
